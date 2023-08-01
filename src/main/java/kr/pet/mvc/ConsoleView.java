@@ -52,4 +52,8 @@ public class ConsoleView {
             System.out.println("  출생년도: " + customer.getBirthYear());
         }
     }
+
+    public void printMessage(String message) {
+        System.out.println(message);
+    }
 }
